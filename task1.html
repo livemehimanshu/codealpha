@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="task1.css" />
+  </head>
+  <body class="bg-primary">
+    <div class="calculator-container">
+      <h2 class="text-center">Age Calculator</h2>
+
+      <div class="form-group">
+        <label for="birthdate">Enter your birthdate:</label>
+        <input type="date" class="form-control" id="birthdate" />
+      </div>
+
+      <button class="btn btn-secondary btn-block" onclick="calculateAge()">
+        Calculate your Age
+      </button>
+
+      <div id="result" class="mt-3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="task1.js"></script>
+  </body>
+</html>
